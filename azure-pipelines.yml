@@ -9,7 +9,7 @@ trigger:
     - master
   paths:
     include:
-    - DEV%20-%20Building%20your%20Applications%20for%20the%20Cloud/DEV10/src/frontend
+    - DEV%20-%20Building%20your%20Applications%20for%20the%20Cloud/DEV10/src/frontend/*
 
 pool:
   vmImage: 'ubuntu-latest'
